@@ -4,10 +4,10 @@
         <meta charset=utf-8>
         <meta http-equiv=X-UA-Compatible content="IE=edge">
         <meta name=viewport content="width=device-width,initial-scale=1"> 
-        <script src="./dist/0_bundle.js"></script>
-        <script src="./dist/1_bundle.js"></script>
-        <script src="./dist/2_bundle.js"></script>
-        <script src="./dist/index_bundle.js"></script>
+      
+        <script src="./timeline-min.js"></script>
+        <script src="./gsap-min.js"></script>
+        <script src="./index.js"></script>
         <title>who_am_i</title>
     </head>
     <body class="fullscreen">   
@@ -18,8 +18,7 @@
                     <div class="text_wrap">
                         <span class="greeting">반갑습니다.</span>
                         <br>
-                        <span class="greeting">문호석의 포트폴리오 사이트입니다.</span> 
-                    
+                        <span class="greeting">문호석의 포트폴리오 사이트입니다.</span>  
                     </div>
                     <div class="down_wrap">
                         <div class="down_bar">
@@ -51,6 +50,25 @@
                         <div class="protfolio_top">
                             <div class="portfolio_txt">
                                 <p>반응형 페이지 
+                                    <br>작업툴 : photoshop, html, css, javascript 
+                                    <br>배포는 aws ec2를 사용하였습니다.
+                                    <br>현재 메인페이지와 로그인 기능을 구현하고 있습니다.
+                                </p>
+                            
+                            <a class="visit" href="http://starbucks.moongoodstone.com:8080/" target="_blank">visit</a> 
+                            <a class="visit" href="https://github.com/adele007fall/moons_starbucks" target="_blank">github</a> 
+                            </div> 
+                        </div> 
+                    </div>
+                </div>
+            </section>
+            <section data-title="portfolio" class="sections sec4">
+                <h2>portfolio</h2> 
+                <div class="wrapper">
+                    <div class="sec3_inner">
+                        <div class="protfolio_top">
+                            <div class="portfolio_txt">
+                                <p>반응형 페이지 
                                     <br>작업툴 : photoshop, html, css, javascript, vue.js
                                     <br>스크롤링과 반응형 작업을 적용한 이케아의 리뉴얼 페이지입니다.
                                     <br>router 기능과 aws를 이용한 업로드 기능을 실험해보았습니다. 
@@ -64,7 +82,7 @@
                     </div>
                 </div>
             </section>
-            <section data-title="portfolio2" class="sections sec4">
+            <section data-title="portfolio2" class="sections sec5">
                 <h2>portfolio</h2> 
                 <div class="wrapper">
                     <div class="sec4_inner">
@@ -86,7 +104,7 @@
                     </div>
                 </div>
             </section> 
-            <section data-title="thnx" class="sections sec5">
+            <section data-title="thnx" class="sections sec6">
                     <h2>contact</h2> 
                     <div class="wrapper">
                         <div class="contact">
@@ -96,5 +114,5 @@
                     </div>
             </section>
         </div>  
-    <script src="index_bundle.js"></script></body>
+    <script src="index_bundle.js"></script><script src="gsap_bundle.js"></script><script src="timeline_bundle.js"></script></body>
 </html>
